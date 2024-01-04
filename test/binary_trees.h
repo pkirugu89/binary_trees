@@ -22,6 +22,8 @@ typedef struct binary_tree_s binary_tree_t;
 /* Function Prototypes */
 /* Create a binary tree node prototype */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
+/* inserts a node as the left-child of another node prototype */
+binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
 /* print binary tree prototype */
 void binary_tree_print(const binary_tree_t *);
 #endif /* BINARY_TREES_H */
