@@ -35,6 +35,8 @@ void binary_tree_delete(binary_tree_t *tree);
 int binary_tree_is_leaf(const binary_tree_t *node);
 /* checks if a node is a root prototype */
 int binary_tree_is_root(const binary_tree_t *node);
+/* pre-order traversal in binary tree prototype */
+void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));
 /* print binary tree prototype */
 void binary_tree_print(const binary_tree_t *);
 #endif /* BINARY_TREES_H */
