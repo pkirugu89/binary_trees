@@ -41,6 +41,8 @@ void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));
 void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));
 /* Post-order binary traversal prototype */
 void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));
+/* Binary tree height measurement prototype */
+size_t binary_tree_height(const binary_tree_t *tree);
 /* print binary tree prototype */
 void binary_tree_print(const binary_tree_t *);
 #endif /* BINARY_TREES_H */
