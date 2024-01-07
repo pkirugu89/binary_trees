@@ -45,6 +45,8 @@ void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));
 size_t binary_tree_height(const binary_tree_t *tree);
 /* Depth of a node in binary tree prototype */
 size_t binary_tree_depth(const binary_tree_t *tree);
+/* binary tree size prototype */
+size_t binary_tree_size(const binary_tree_t *tree);
 /* print binary tree prototype */
 void binary_tree_print(const binary_tree_t *);
 #endif /* BINARY_TREES_H */
