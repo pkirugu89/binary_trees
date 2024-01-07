@@ -51,6 +51,8 @@ size_t binary_tree_size(const binary_tree_t *tree);
 size_t binary_tree_leaves(const binary_tree_t *tree);
 /* nodes count with atleast 1 child prototype */
 size_t binary_tree_nodes(const binary_tree_t *tree);
+/* Binary tree balance factor prototype */
+int binary_tree_balance(const binary_tree_t *tree);
 /* print binary tree prototype */
 void binary_tree_print(const binary_tree_t *);
 #endif /* BINARY_TREES_H */
